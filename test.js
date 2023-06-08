@@ -16,6 +16,14 @@ describe("sort", () => {
 
         expect(result).toEqual(expectedOutput);
     })
+
+    test("returns a list of numbers in descending order including decimals", () => {
+        const exampleInput = [1, 2, 3, -4.2, 4, 5, 6, 7, 8, 9, 10];
+        const expectedOutput = [10, 9, 8, 7, 6, 5, 4, 3, 2, 1, -4.2];
+        const result = sort(exampleInput);
+
+        expect(result).toEqual(expectedOutput);
+    })
 })
 
 describe("removeDuplicates", () => {
