@@ -3,5 +3,13 @@
 
 const sort = (arr) => arr.sort((a, b) => b - a);
 
-module.exports = { sort };
+const removeDuplicates = (arr) => {
+    const newArr = [];
+
+    arr.forEach(num => !newArr.includes(num) ? newArr.push(num) : null)
+
+    return newArr;   
+};
+
+module.exports = { sort, removeDuplicates };
 
