@@ -1,0 +1,22 @@
+{
+  "name": "2i",
+  "version": "1.0.0",
+  "description": "Code test for 2i",
+  "main": "code-test.js",
+  "scripts": {
+    "test": "jest"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/helloheatherwilliams/2i-code-test.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/helloheatherwilliams/2i-code-test/issues"
+  },
+  "homepage": "https://github.com/helloheatherwilliams/2i-code-test#readme",
+  "devDependencies": {
+    "jest": "^29.5.0"
+  }
+}
