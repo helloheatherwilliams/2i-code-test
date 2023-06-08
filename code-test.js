@@ -11,5 +11,7 @@ const removeDuplicates = (arr) => {
     return newArr;   
 };
 
-module.exports = { sort, removeDuplicates };
+const removeDuplicatesAndSort = (arr) => sort(removeDuplicates(arr)); 
+
+module.exports = { sort, removeDuplicates, removeDuplicatesAndSort };
 
